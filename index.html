@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Escrita Minimalista</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"></script>
+</head>
+<body>
+    <div id="sidebar">
+        <div id="textsContainer">
+            <!-- Os textos salvos serão adicionados aqui pelo JavaScript -->
+        </div>
+    </div>
+    <main>
+        <textarea id="content" autofocus></textarea>
+        <button id="saveButton" class="actionButton">Salvar</button>
+        <button id="generatePDF" class="actionButton">Gerar PDF</button>
+        <button id="deleteAllButton" class="actionButton">Deletar Todos</button>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
