@@ -15,9 +15,3 @@ Este é um projeto de escrita minimalista que permite aos usuários escrever, sa
 
 - Node.js
 - npm
-
-### Instruções
-
-1. Clone o repositório para a sua máquina local.
-   ```bash
-   git clone https://github.com/yourusername/yourrepository.git
